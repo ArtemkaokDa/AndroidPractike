@@ -17,14 +17,11 @@
     <style name="SplashTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <item name="android:windowBackground">@drawable/splashmap</item>
     </style>
+
     <style name="buttonCircleBlue" parent="ShapeAppearanceOverlay.Material3.Corner.Bottom">
         <item name="android:background">@drawable/circleblue</item>
     </style>
 
-    <style name="buttonCircle" parent="ShapeAppearanceOverlay.Material3.Corner.Bottom">
-        <item name="android:background">@drawable/roundedbutton</item>
-
-    </style>
 
 
 
