@@ -27,9 +27,11 @@ public class avtorizacia extends AppCompatActivity {
             Toast.makeText(this, "Заполните поле", Toast.LENGTH_SHORT).show();
         }
         else {
-            Intent intent = new Intent(avtorizacia.this, codeEmail.class);
-            startActivity(intent);
-            finish();
+
+
+            Intent i = new Intent(getApplicationContext(),codeEmail.class);
+            i.putExtra("new_variable",1);
+            startActivity(i);
         }
     }
 
